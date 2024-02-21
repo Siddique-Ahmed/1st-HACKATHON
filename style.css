@@ -8,3 +8,787 @@
 html {
     font-size: 62.5%;
 }
+
+body {
+    font-family: montserrat, Arial, Helvetica, sans-serif;
+}
+
+
+/* ################### header styling ############# */
+
+.header {
+    width: 100%;
+    height: 15vh;
+    border-bottom: 1px solid pink;
+    background: url(./IMAGES/hero-bg.jpg);
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+}
+
+.navbar {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar .nav-logo a {
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navbar .nav-logo a span {
+    color: rgb(255, 157, 46);
+    font-size: 0.5rem;
+}
+
+.nav-contianer .nav-items,
+.search,
+.btn {
+    display: inline-block;
+    padding-left: 1rem;
+}
+
+.nav-contianer .nav-items li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: #F1D6C6;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding-left: 1rem;
+}
+
+.nav-items li a:hover {
+    color: #E8CCBB;
+}
+
+.search {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.btn a {
+    font-size: 1.4rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: #FF8D29;
+    padding: 13px 26px;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn a:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* ######### sectoin styling start ######### */
+
+.section {
+    width: 100%;
+    height: 100vh;
+    background: url(./IMAGES/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 9.1rem;
+    letter-spacing: 0.1rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-content h3 {
+    color: rgb(255, 157, 46);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.section-content h1 {
+    color: #F1D6C6;
+    font-size: 6rem;
+    width: 50%;
+}
+
+.section-content p {
+    color: #E8CCBB;
+    font-size: 1.5rem;
+    width: 35%;
+}
+
+.section-content .btn {
+    margin-top: 2rem;
+}
+
+.section-content .btn a {
+    font-size: 1.4rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: #FF8D29;
+    padding: 13px 26px;
+}
+
+.section-content .btn a:hover {
+    background-color: white;
+    color: black;
+}
+
+.section .img-1 img {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 100%;
+    width: 90%;
+}
+
+.section .img-2 img {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 100%;
+    width: 60%;
+}
+
+.section .img-3 img {
+    position: absolute;
+    top: 120px;
+    right: 130px;
+    height: 70%;
+    width: 40%;
+}
+
+
+/* ######### section 2 Styling ############# */
+
+.section-2 {
+    width: 100%;
+    height: 110vh;
+    background-color: #F9F6F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 .card-1 {
+    height: 80vh;
+    width: 20%;
+    background-color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.4s ease-in-out;
+}
+
+.card-1:hover {
+    background-color: #FF8D29;
+    color: white;
+}
+
+.card-1 .card-icon {
+    font-size: 7rem;
+}
+
+.card-1 h1 {
+    font-size: 2rem;
+}
+
+.card-1 p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.section-2 .card-2 {
+    height: 80vh;
+    width: 20%;
+    background-color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.4s ease-in-out;
+}
+
+.card-2:hover {
+    background-color: #FF8D29;
+    color: white;
+}
+
+.card-2 .card-icon {
+    font-size: 7rem;
+}
+
+.card-2 h1 {
+    font-size: 2rem;
+}
+
+.card-2 p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.section-2 .card-3 {
+    height: 80vh;
+    width: 20%;
+    background-color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.4s ease-in-out;
+}
+
+.card-3:hover {
+    background-color: #FF8D29;
+}
+
+.card-3 .card-icon {
+    font-size: 7rem;
+}
+
+.card-3 h1 {
+    font-size: 2rem;
+}
+
+.card-3 p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.section-2 .card-4 {
+    height: 80vh;
+    width: 20%;
+    background-color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.4s ease-in-out;
+}
+
+.card-4:hover {
+    background-color: #FF8D29;
+    color: white;
+}
+
+.card-4 .card-icon {
+    font-size: 7rem;
+}
+
+.card-4 h1 {
+    font-size: 2rem;
+}
+
+.card-4 p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+
+/* ############# section 3 styling ########### */
+
+.section-3 {
+    width: 100%;
+    height: 100vh;
+    background: url(./IMAGES/hero-bg.jpg);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.section-3 .section3-content {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.section3-content h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+.section3-content h1 span {
+    color: #FF8D29;
+}
+
+.section3-content p {
+    font-size: 1.5rem;
+    color: #F1D6C6;
+}
+
+.section3-content .btn {
+    margin-top: 4rem;
+}
+
+.section3-image {
+    width: 40%;
+    height: 70%;
+    position: relative;
+}
+
+.section3-image .img-1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.section3-image .img-2 img {
+    height: 30%;
+    width: 30%;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    animation: discount 2s ease-in-out infinite alternate;
+}
+
+@keyframes discount {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+
+/* ################ section 4 styling ######### */
+
+.section-4 {
+    width: 100%;
+    height: 120vh;
+    background-color: #F9F6F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section4-content {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.section-4 .section4-content h4 {
+    font-size: 1.3rem;
+    color: red;
+}
+
+.section-4 .section4-content h1 span {
+    color: #FF8D29;
+}
+
+.section-4 .section4-content h1 {
+    font-size: 3rem;
+    color: black;
+    padding-top: 2rem;
+}
+
+.section-4 .section4-content p {
+    font-size: 1.5rem;
+    color: black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.card-container {
+    height: 90vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-container .cards-1 {
+    width: 30%;
+    height: 90%;
+    background-color: white;
+}
+
+.card-img {
+    width: 100%;
+    height: 40vh;
+    background: url(./IMAGES/card-img-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.card-img .card-btn a {
+    font-size: 2rem;
+    color: white;
+    background-color: #FF8D29;
+    padding: 0.4rem 0.9rem;
+    text-decoration: none;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    transition: all 0.7s ease-in-out;
+}
+
+.card-img .card-btn a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card-container .date {
+    margin-top: 3rem;
+}
+
+.card-container .date a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 1.7rem;
+    font-weight: 700;
+}
+
+.card-container .date a:hover {
+    color: #FF8D29;
+}
+
+.card-container p {
+    width: 80%;
+    font-size: 1.5rem;
+    color: black;
+    line-height: 3rem;
+    padding-left: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.card-container a {
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 2rem;
+}
+
+.card-container a:hover {
+    color: #FF8D29;
+}
+
+.card-container .cards-2 {
+    width: 30%;
+    height: 90%;
+    background-color: white;
+}
+
+.card-img2 {
+    width: 100%;
+    height: 40vh;
+    background: url(./IMAGES/card-img-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.card-img2 .card-btn a {
+    font-size: 2rem;
+    color: white;
+    background-color: #FF8D29;
+    padding: 0.4rem 0.9rem;
+    text-decoration: none;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    transition: all 0.7s ease-in-out;
+}
+
+.card-img2 .card-btn a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card-container .date {
+    margin-top: 3rem;
+}
+
+.card-container .date a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 1.7rem;
+    font-weight: 700;
+}
+
+.card-container .date a:hover {
+    color: #FF8D29;
+}
+
+.card-container p {
+    width: 80%;
+    font-size: 1.5rem;
+    color: black;
+    line-height: 3rem;
+    padding-left: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.card-container a {
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 2rem;
+}
+
+.card-container a:hover {
+    color: #FF8D29;
+}
+
+.card-container .cards-3 {
+    width: 30%;
+    height: 90%;
+    background-color: white;
+}
+
+.card-img3 {
+    width: 100%;
+    height: 40vh;
+    background: url(./IMAGES/card-img-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.card-img3 .card-btn a {
+    font-size: 2rem;
+    color: white;
+    background-color: #FF8D29;
+    padding: 0.4rem 0.9rem;
+    text-decoration: none;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    transition: all 0.7s ease-in-out;
+}
+
+.card-img3 .card-btn a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card-container .date {
+    margin-top: 3rem;
+}
+
+.card-container .date a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 1.7rem;
+    font-weight: 700;
+}
+
+.card-container .date a:hover {
+    color: #FF8D29;
+}
+
+.card-container p {
+    width: 80%;
+    font-size: 1.5rem;
+    color: black;
+    line-height: 3rem;
+    padding-left: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.card-container a {
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 2rem;
+}
+
+.card-container a:hover {
+    color: #FF8D29;
+}
+
+
+/* ################# Footer styling ############ */
+
+.footer {
+    height: 90vh;
+    width: 100%;
+    background: url(./IMAGES/footer-illustration.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer .links {
+    width: 23%;
+    height: 65%;
+    margin-top: 15rem;
+}
+
+.footer .links h1 {
+    font-size: 4rem;
+    padding-top: 2rem;
+}
+
+.links h1 span {
+    font-size: 1rem;
+    color: #FF8D29;
+}
+
+.links p {
+    font-size: 1.7rem;
+    color: grey;
+    padding-top: 1rem;
+    line-height: 3rem;
+}
+
+.links .link-items {
+    margin-top: 2rem;
+}
+
+.links .link-items a {
+    font-size: 3rem;
+    text-decoration: none;
+    color: #FF8D29;
+    padding-left: 2rem;
+}
+
+.footer .contact {
+    width: 23%;
+    height: 65%;
+    margin-top: 15rem;
+}
+
+.contact h1 {
+    font-size: 2rem;
+    color: black;
+    padding-top: 2rem;
+}
+
+.contact h1 span {
+    color: #FF8D29;
+}
+
+.contact p {
+    font-size: 1.3rem;
+    color: grey;
+    padding-top: 3rem;
+}
+
+.footer .timing {
+    width: 23%;
+    height: 65%;
+    margin-top: 15rem;
+}
+
+.timing h1 {
+    font-size: 2rem;
+    color: black;
+    padding-top: 2rem;
+}
+
+.timing h1 span {
+    color: #FF8D29;
+}
+
+.timing p {
+    font-size: 1.3rem;
+    color: grey;
+    padding-top: 3rem;
+}
+
+.footer .form {
+    width: 25%;
+    height: 70%;
+    padding-left: 2rem;
+    margin-top: 10rem;
+}
+
+.form h1 {
+    margin-top: 2rem;
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+}
+
+.form h1 span {
+    color: #FF8D29;
+}
+
+.form input {
+    width: 100%;
+    padding: 1.5rem 3rem;
+    font-size: 1.1rem;
+}
+
+.form select {
+    width: 100%;
+    padding: 1.5rem 3rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.form input[type="email"] {
+    width: 70%;
+    padding: 1.5rem 3rem;
+    margin-left: 1rem;
+}
+
+.form input[type="date"] {
+    width: 70%;
+    padding: 1.5rem 3rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-btn {
+    margin-top: 1.6rem;
+}
+
+.form .footer-btn a {
+    padding: 1.5rem 2.2rem;
+    background-color: #FF8D29;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.footer-2 {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-2 .end-footer p {
+    color: grey;
+    font-size: 2rem
+}
+
+
+/* ################## MEDIA QUERIE START ########### */
+
+
+/* @media (min-width: 0px ) */
